@@ -76,6 +76,27 @@
                   </ImageView>
                </graphic>
             </Button>
+            <MenuBar fx:id="menuBar" layoutY="2.0" prefHeight="25.0" prefWidth="555.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <menus>
+                <Menu fx:id="mnArquivo" mnemonicParsing="false" text="Arquivo">
+                  <items>
+                    <MenuItem fx:id="miSair" mnemonicParsing="false" text="Sair" />
+                  </items>
+                </Menu>
+                  <Menu fx:id="mnCadastros" mnemonicParsing="false" text="Cadastros">
+                    <items>
+                      <MenuItem fx:id="miFornecedores" mnemonicParsing="false" onAction="#cadastrarFornecedor" text="Fornecedores" />
+                        <MenuItem fx:id="miClientes" mnemonicParsing="false" onAction="#cadastrarCliente" text="Clientes" />
+                        <MenuItem fx:id="miProdutos" mnemonicParsing="false" onAction="#cadastrarProduto" text="Produtos" />
+                    </items>
+                  </Menu>
+                <Menu fx:id="mnAjuda" mnemonicParsing="false" text="Ajuda">
+                  <items>
+                    <MenuItem fx:id="miSobre" mnemonicParsing="false" text="Sobre" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
          </children>
       </AnchorPane>
    </center>
