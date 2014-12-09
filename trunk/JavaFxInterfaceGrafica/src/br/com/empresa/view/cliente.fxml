@@ -72,7 +72,7 @@
                      <graphic>
                         <ImageView fitHeight="47.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Desktop/Developer%20Kit_png/png/Recycle.png" />
+                              <Image url="@../../../../../img/Refresh.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -81,7 +81,7 @@
                      <graphic>
                         <ImageView fitHeight="20.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../../Desktop/Developer%20Kit_png/png/Save.png" />
+                              <Image url="@../../../../../img/Add.png" />
                            </image>
                         </ImageView>
                      </graphic>
